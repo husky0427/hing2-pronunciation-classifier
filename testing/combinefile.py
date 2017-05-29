@@ -5,7 +5,7 @@ def combilefile
 @author: speechlab
 """
 import score
-
+from strprc import no_abc123
 
 tone_ = ['do2', 'e3-sai4', 'ggau2', 'giann2', 'hang2', 'hing2', 'hing7', 'zua7']
 
@@ -22,7 +22,7 @@ def combinefile(lines1, lines2, r1, r2, _1List):
     amount2 = int(len(lines2)/7)  # amount of centence in lines2
     if amount1 != amount2:
         print(amount1, ' / ', amount2)
-        raise Exception('amount of centence in file1 and 2 is inequality!')
+        raise Exception('amount of sentence in file1 and 2 is inequality!')
     for i in range(amount1-1):
         # print('__', lines1[i*7+1])
         if lines1[i*7+1].split()[1][0] == '@':
@@ -32,7 +32,7 @@ def combinefile(lines1, lines2, r1, r2, _1List):
                 outputList.append(lines1[i*7+2])  # centence
                 feature = f'{lines1[i*7+3][:-1]}{lines2[i*7+3]}'  # [(-1, 'T:之')][][]
                 outputList.append(feature)
-                tp = [item.split('\'')[1] for item in feature.split(']') if len(item) >3]
+                tp = [item.split("'")[1] for item in feature.split(']') if len(item) >3]
                 c1s1, tone1 = parse_scoreList(lines1[i*7+4])
                 c2s1, tone2 = parse_scoreList(lines2[i*7+4])
                 s1List = add(c1s1, c2s1, r1, r2)
@@ -103,7 +103,10 @@ def combinefile(lines1, lines2, r1, r2, _1List):
         
 # 從string獲得score and tone        
 def parse_scoreList(string):
-    if string.split(' ')[0] == 'no':
+    if string.split()[0] == 'no':
+        tone = string.split()[2]
+        return [0, 0, 0, 0, 0, 0, 0, 0], tone
+    elif string.split()[0] == 'inapplicable'
         tone = string.split()[2]
         return [0, 0, 0, 0, 0, 0, 0, 0], tone
     else:

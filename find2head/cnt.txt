@@ -1,0 +1,141 @@
+Head:NP -> Head:NP Head:NP              1257
+NP -> Head:NP Head:NP                   914
+head:NP -> Head:NP Head:NP              84
+VP -> Head:VP Head:VP                   61
+Head:VA4 -> Head:Vi Head:Vi             47
+Head:V -> Head:Vi Head:Vt               38
+Head:VP -> Head:VP Head:VP              35
+Nba -> Head:N Head:N                    24
+Head:V -> Head:Vi Head:Vi               23
+Head:VC2 -> Head:Vt Head:Vt             22
+V -> Head:Vi Head:Vi                    20
+Nca -> Head:N Head:N                    20
+Head:V -> Head:Vt Head:Vt               18
+NP -> Head:N Head:NP                    18
+head:VP -> Head:VP Head:VP              17
+Head:V -> Head:Vt Head:Vi               16
+Head:VP -> Head:C VP Head:C VP          14
+N -> Head:N Head:N                      13
+PP -> Head:P NP Head:P                  12
+VA4 -> Head:Vi Head:Vi                  12
+Nad -> Head:Nad Head:N                  11
+NP -> Head:DET Head:C NP                11
+Head:Nad -> Head:N Head:N               9
+VH11 -> Head:Vi Head:Vi                 9
+head:VA4 -> Head:Vi Head:Vi             9
+NP -> Head:C NP Head:N                  9
+Head:VH11 -> Head:Vi Head:Vi            8
+Head:Ncb -> Head:C N Head:C N           8
+head:VH11 -> Head:Vi Head:Vi            8
+NP -> Head:N Head:POST                  8
+Head:Naeb -> Head:Naeb Head:N           7
+V -> Head:Vi Head:Vt                    6
+Head:V -> Head:V Head:Vt                6
+V -> Head:Vt Head:Vi                    6
+S -> Head:S Head:S                      5
+Head:Caa -> Head:C Head:C               5
+V -> Head:Vt Head:Vt                    5
+head:VP -> Head:C VP Head:Vi            5
+head:V -> Head:V Head:Vi                5
+Nca -> Head:Nca Head:N                  4
+VC2 -> Head:Vt Head:Vt                  4
+Head:Nad -> Head:Nad Head:N             4
+Head:N -> Head:N Head:N                 4
+Head:NP -> Head:NP Head:N               4
+Nab -> Head:Nab Head:N                  4
+VP -> Head:Vt Head:Vt                   4
+NP -> Head:N Head:N                     3
+VP -> Head:Vt VP Head:Vi VP             3
+NP -> Head:DET Head:C N                 3
+Head:V -> Head:C Vt Head:C Vi           3
+Head:Naeb -> Head:N Head:N              3
+Naeb -> Head:N Head:N                   3
+head:Nca -> Head:Nca Head:N             3
+VP -> Head:C VP Head:Vi                 3
+head:VP -> Head:C VP Head:C VP          3
+head:S -> Head:S Head:S                 3
+S -> Head:S Head:NP                     3
+Head:VA3 -> Head:Vi Head:Vi             3
+NP -> Head:C NP NP‧的 Head:N             3
+V -> Head:V Head:Vt                     3
+Head:S -> Head:C S Head:C VP            3
+NP -> Head:C N Head:N                   3
+Head:VA4 -> Head:Vi ADV Head:Vi         3
+head:S -> Head:S Head:VP                3
+head:PP -> Head:PP Head:PP              2
+Naa -> Head:N Head:N                    2
+NP -> Head:C NP Head:C NP               2
+Head:VK1 -> Head:Vt Head:Vt             2
+Head:VP -> Head:Vt Head:Vt              2
+Nca -> Head:C N Head:C N                2
+Head:VP -> Head:VP Head:Vi              2
+Head:Nab -> Head:C N Head:C N           2
+Head:VA13 -> Head:Vi Head:Vi            2
+head:VC2 -> Head:Vt Head:Vt             2
+head:V -> Head:Vi Head:Vt               2
+VP -> Head:C VP Head:C NP               2
+Head:VH11 -> Head:Vi ADV Head:Vi        2
+Nad -> Head:N Head:N                    2
+head:VP -> Head:Vt ADV Vi Head:Vi       2
+NP -> Head:Nv1 Head:Nv                  2
+Head:Nab -> Head:N Head:N               2
+Nab -> Head:N Head:N                    2
+S -> Head:VP Head:S                     2
+Head:Nca -> Head:Nca Head:N             2
+NP -> Head:C NP T Head:N                1
+VP -> Head:Vt VP Head:Vt                1
+Head:Nca -> Head:C N Head:C N           1
+head:NP -> Head:C N Head:N              1
+NP -> NP PP ADV N‧的 Head:N PP Head:N    1
+Head:N -> Head:Nv Head:Nv               1
+VP -> Head:C VP Head:Vi NP              1
+head:VP -> Head:Vt ADV Head:Vi          1
+NP -> Head:C NP V‧的 Nv Head:N           1
+NP -> Head:C NP Nv Head:N               1
+NP -> Head:C NP NP Head:N               1
+VP -> Head:Vi PP Head:Vt PP             1
+VP -> Head:C VP Head:Vt                 1
+Head:Nba -> Head:Nba Head:N             1
+Head:VJ2 -> Head:Vt Head:Vt             1
+PP -> Head:PP Head:PP                   1
+VP -> Head:VP Head:VP VP                1
+Head:VP -> Head:Vt Head:Vi              1
+NP -> N A Head:N PP Head:N              1
+VP -> Head:C VP A Head:Vi NP            1
+S -> ADV Head:S Head:S                  1
+Ncb -> Head:N Head:N                    1
+head:VA11 -> Head:Vi Head:Vi            1
+Head:VH11 -> Head:C Vi Head:C Vi        1
+Head:VA11 -> Head:VA11 Head:Vi          1
+Head:VA11 -> Head:Vi Head:Vi            1
+NP -> Head:C NP PP Head:Nv              1
+NP -> Head:C NP DM Head:N               1
+head:V -> Head:Vi Head:Vi               1
+VC2 -> Head:Vt Head:C Vt                1
+VP -> Head:C NP ADV Head:Vi             1
+VP -> Head:Vt VP Head:Vt NP VP          1
+Head:Nba -> Head:C N Head:C N           1
+NP -> Head:C NP VP‧的 A Head:Nv          1
+head:VP -> Head:C VP Head:C NP          1
+VP -> Head:C VP C Head:Vi               1
+head:V -> Head:C Vt Head:C Vi           1
+VP -> Head:C VP Head:Vt NP              1
+NP -> GP NP N Head:N PP T Head:Nv       1
+NP -> Head:C N Vt Head:Nv               1
+Head:Nv4 -> Head:Nv Head:Nv             1
+Nv1 -> Head:Nv Head:Nv                  1
+head:V -> Head:Vt Head:Vi               1
+Head:VP -> Head:C VP Head:C NP          1
+Head:VP -> Head:Vi Head:Vi              1
+NP -> Head:C N VP‧的 Head:N              1
+Head:S -> Head:S Head:S                 1
+NP -> Head:C NP N‧的 Head:NP             1
+head:VP -> Head:Vt NP Head:Vi           1
+NP -> N N Head:N PP Vi Head:N           1
+NP -> Head:C NP N N Head:N              1
+Head:Nca -> Head:N Head:N               1
+NP -> Head:C NP PP NP‧的 Head:N          1
+head:NP -> Head:C NP Head:C VP          1
+Head:VC2 -> Head:Vt ASP Head:Vt         1
+Ncda -> Head:N Head:N                   1
+VP -> Head:C VP Head:Vi N               1

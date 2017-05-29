@@ -134,11 +134,11 @@ def testing_combined(readPath, writePath, readName1, readName2, r1, r2):
                     p = tp[0]
                     try:
                         sc1 = syn1.get_score(ch, scoreNum=1, dictSwitch=dictswitch)
-                        t_score1 = [round(r1/(r1+r2)*a+b,2) for a,b in zip(sc1, t_score1)]
+                        t_score1 = [r1/(r1+r2)*a+b for a,b in zip(sc1, t_score1)]
                         sc2 = syn1.get_score(ch, scoreNum=2, dictSwitch=dictswitch)
-                        t_score2 = [round(r1/(r1+r2)*a+b,2) for a,b in zip(sc2, t_score2)]
+                        t_score2 = [r1/(r1+r2)*a+b for a,b in zip(sc2, t_score2)]
                         sc3 = syn1.get_score(ch, scoreNum=3, dictSwitch=dictswitch)
-                        t_score3 = [round(r1/(r1+r2)*a+b,2) for a,b in zip(sc3, t_score3)]
+                        t_score3 = [r1/(r1+r2)*a+b for a,b in zip(sc3, t_score3)]
                     except KeyError:
                         pass
                 for tp in feature2:  # tuple:(1, 'DET:一')7
@@ -146,14 +146,18 @@ def testing_combined(readPath, writePath, readName1, readName2, r1, r2):
                     p = tp[0]
                     try:   
                         sc1 = syn2.get_score(ch, scoreNum=1, dictSwitch=dictswitch)
-                        t_score1 = [round(r2/(r1+r2)*a+b,2) for a,b in zip(sc1, t_score1)]
+                        t_score1 = [r2/(r1+r2)*a+b for a,b in zip(sc1, t_score1)]
                         sc2 = syn2.get_score(ch, scoreNum=2, dictSwitch=dictswitch)
-                        t_score2 = [round(r2/(r1+r2)*a+b,2) for a,b in zip(sc2, t_score2)]
+                        t_score2 = [r2/(r1+r2)*a+b for a,b in zip(sc2, t_score2)]
                         sc3 = syn2.get_score(ch, scoreNum=3, dictSwitch=dictswitch)
-                        t_score3 = [round(r2/(r1+r2)*a+b,2) for a,b in zip(sc3, t_score3)]
+                        t_score3 = [r2/(r1+r2)*a+b for a,b in zip(sc3, t_score3)]
                     except KeyError:
                         pass
-                    
+                
+                t_score1 = [round(n, 2) for n in t_score1]
+                t_score2 = [round(n, 2) for n in t_score2]
+                t_score3 = [round(n, 2) for n in t_score3]
+                
                 # 判斷是否為inapplicable (全為0)
                 if t_score1 == [0, 0, 0, 0, 0, 0, 0, 0]:
                     inappli += 1
